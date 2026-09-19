@@ -76,7 +76,16 @@ function Pizza() {
 }
 
 function Footer() {
-  return <footer>We're currently open!</footer>;
+  const hour = new Date().getHours();
+  const openHour = 9;
+  const closeHour = 18;
+  const isOpen = hour >= openHour && hour <= closeHour;
+
+  return (
+    <footer>
+      {isOpen ? `We're currently open!` : `We're currently close!`}
+    </footer>
+  );
 }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
