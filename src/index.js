@@ -120,17 +120,19 @@ function Footer() {
 
   return (
     <footer className="footer">
-      {isOpen ? (
-        <div className="order">
-          <p>
-            We're open until ${closeHour}:00. Come visit us or order online!
-          </p>
-          <button className="btn">Order</button>
-        </div>
-      ) : (
-        `We're currently close!`
-      )}
+      {isOpen ? <Order closeHour={closeHour} /> : `We're currently close!`}
     </footer>
+  );
+}
+
+function Order(props) {
+  return (
+    <div className="order">
+      <p>
+        We're open until {props.closeHour}:00. Come visit us or order online!
+      </p>
+      <button className="btn">Order</button>
+    </div>
   );
 }
 
