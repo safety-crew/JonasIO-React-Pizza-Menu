@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/safety-crew.github.io/JonasIO-React-Pizza-Menu/static/css/main.ec313818.css",
+    "main.js": "/safety-crew.github.io/JonasIO-React-Pizza-Menu/static/js/main.39e6bb97.js",
+    "index.html": "/safety-crew.github.io/JonasIO-React-Pizza-Menu/index.html",
+    "main.ec313818.css.map": "/safety-crew.github.io/JonasIO-React-Pizza-Menu/static/css/main.ec313818.css.map",
+    "main.39e6bb97.js.map": "/safety-crew.github.io/JonasIO-React-Pizza-Menu/static/js/main.39e6bb97.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec313818.css",
+    "static/js/main.39e6bb97.js"
+  ]
+}
